@@ -1,0 +1,326 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B6C337C91E37F5CD00551C07 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6C337C81E37F5CD00551C07 /* AppDelegate.swift */; };
+		B6C337CB1E37F5CD00551C07 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6C337CA1E37F5CD00551C07 /* ViewController.swift */; };
+		B6C337CE1E37F5CD00551C07 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6C337CC1E37F5CD00551C07 /* Main.storyboard */; };
+		B6C337D11E37F5CD00551C07 /* Json_http_connection.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B6C337CF1E37F5CD00551C07 /* Json_http_connection.xcdatamodeld */; };
+		B6C337D31E37F5CD00551C07 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6C337D21E37F5CD00551C07 /* Assets.xcassets */; };
+		B6C337D61E37F5CD00551C07 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6C337D41E37F5CD00551C07 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B6C337C51E37F5CD00551C07 /* Json http connection.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Json http connection.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6C337C81E37F5CD00551C07 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B6C337CA1E37F5CD00551C07 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B6C337CD1E37F5CD00551C07 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B6C337D01E37F5CD00551C07 /* Json_http_connection.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Json_http_connection.xcdatamodel; sourceTree = "<group>"; };
+		B6C337D21E37F5CD00551C07 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B6C337D51E37F5CD00551C07 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B6C337D71E37F5CD00551C07 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B6C337C21E37F5CD00551C07 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B6C337BC1E37F5CD00551C07 = {
+			isa = PBXGroup;
+			children = (
+				B6C337C71E37F5CD00551C07 /* Json http connection */,
+				B6C337C61E37F5CD00551C07 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B6C337C61E37F5CD00551C07 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B6C337C51E37F5CD00551C07 /* Json http connection.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B6C337C71E37F5CD00551C07 /* Json http connection */ = {
+			isa = PBXGroup;
+			children = (
+				B6C337C81E37F5CD00551C07 /* AppDelegate.swift */,
+				B6C337CA1E37F5CD00551C07 /* ViewController.swift */,
+				B6C337CC1E37F5CD00551C07 /* Main.storyboard */,
+				B6C337D21E37F5CD00551C07 /* Assets.xcassets */,
+				B6C337D41E37F5CD00551C07 /* LaunchScreen.storyboard */,
+				B6C337D71E37F5CD00551C07 /* Info.plist */,
+				B6C337CF1E37F5CD00551C07 /* Json_http_connection.xcdatamodeld */,
+			);
+			path = "Json http connection";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B6C337C41E37F5CD00551C07 /* Json http connection */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B6C337DA1E37F5CD00551C07 /* Build configuration list for PBXNativeTarget "Json http connection" */;
+			buildPhases = (
+				B6C337C11E37F5CD00551C07 /* Sources */,
+				B6C337C21E37F5CD00551C07 /* Frameworks */,
+				B6C337C31E37F5CD00551C07 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Json http connection";
+			productName = "Json http connection";
+			productReference = B6C337C51E37F5CD00551C07 /* Json http connection.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B6C337BD1E37F5CD00551C07 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Giulio Tavella";
+				TargetAttributes = {
+					B6C337C41E37F5CD00551C07 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = W6VS4VYA7Q;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = B6C337C01E37F5CD00551C07 /* Build configuration list for PBXProject "Json http connection" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B6C337BC1E37F5CD00551C07;
+			productRefGroup = B6C337C61E37F5CD00551C07 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B6C337C41E37F5CD00551C07 /* Json http connection */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B6C337C31E37F5CD00551C07 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6C337D61E37F5CD00551C07 /* LaunchScreen.storyboard in Resources */,
+				B6C337D31E37F5CD00551C07 /* Assets.xcassets in Resources */,
+				B6C337CE1E37F5CD00551C07 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B6C337C11E37F5CD00551C07 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6C337CB1E37F5CD00551C07 /* ViewController.swift in Sources */,
+				B6C337D11E37F5CD00551C07 /* Json_http_connection.xcdatamodeld in Sources */,
+				B6C337C91E37F5CD00551C07 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B6C337CC1E37F5CD00551C07 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B6C337CD1E37F5CD00551C07 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B6C337D41E37F5CD00551C07 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B6C337D51E37F5CD00551C07 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B6C337D81E37F5CD00551C07 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B6C337D91E37F5CD00551C07 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B6C337DB1E37F5CD00551C07 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = W6VS4VYA7Q;
+				INFOPLIST_FILE = "Json http connection/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.giuliotavella.prova.Json-http-connection";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		B6C337DC1E37F5CD00551C07 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = W6VS4VYA7Q;
+				INFOPLIST_FILE = "Json http connection/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.giuliotavella.prova.Json-http-connection";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B6C337C01E37F5CD00551C07 /* Build configuration list for PBXProject "Json http connection" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6C337D81E37F5CD00551C07 /* Debug */,
+				B6C337D91E37F5CD00551C07 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B6C337DA1E37F5CD00551C07 /* Build configuration list for PBXNativeTarget "Json http connection" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6C337DB1E37F5CD00551C07 /* Debug */,
+				B6C337DC1E37F5CD00551C07 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		B6C337CF1E37F5CD00551C07 /* Json_http_connection.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				B6C337D01E37F5CD00551C07 /* Json_http_connection.xcdatamodel */,
+			);
+			currentVersion = B6C337D01E37F5CD00551C07 /* Json_http_connection.xcdatamodel */;
+			path = Json_http_connection.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = B6C337BD1E37F5CD00551C07 /* Project object */;
+}
